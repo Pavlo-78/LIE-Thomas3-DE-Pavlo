@@ -381,7 +381,7 @@ class Scrapper():
                 jurls = json.loads(fj)
             # link by limk 
 # ---------------------------------------------------------------------------
-            for u in (jurls[:15]): # for DEBUG set replace "jurls" to "jurls[:10]"
+            for u in (jurls[:20]): # for DEBUG set replace "jurls" to "jurls[:10]"
                 p = wpage_property( "obj"+str(u['Nch']), u["url"], N=u['N'], Nch=u['Nch'])  # create immo objects 
                 if p.get_data_page()==True: # if page handling is succeeded      
                     #message every 100 processed links
