@@ -431,9 +431,9 @@ def scrapper_run(pages_limit=500, limks_limit=None):
     # pages_for_scrap = 5     # normally = 500 ++  line 26
 
     # clear file with group links
-    fpath = os.path.dirname(os.path.abspath(__file__))
-    with open(fpath + '/web_urls_2.json', 'w', encoding='utf-8') as f:
-        f.write('')
+    fpath = os.path.dirname(os.path.abspath(__file__))    
+    with open(fpath + '/web_urls_data.csv', 'w', encoding='utf-8') as f: f.write('')
+   
 
     # getting standart links, save them to json-file and get count scrapped links
     ooj_wpage_links.get_links(pages_limit) 
@@ -448,14 +448,17 @@ def scrapper_run(pages_limit=500, limks_limit=None):
         # get headers 
     field_names = y[0].keys() # get all keys od dict for csv.DictWriter
         # writing dict to CSV
-    with open(fpath + '/web_urls_data.csv', 'w', newline='', encoding='utf-8') as csvfile:
-        writer = csv.DictWriter(csvfile, fieldnames=field_names, quoting=csv.QUOTE_ALL)
-        writer.writeheader()
-        writer.writerows(y)
+    file1 = fpath + '/web_urls_data.csv'
+    file2 = fpath + '/.web_urls_data_'+datetime.now().strftime("%Y%m%d-%H%M%S")+'.csv'    
+    for ffl in [file1,file2]:
+        with open(ffl, 'w', newline='', encoding='utf-8') as csvfile:
+            writer = csv.DictWriter(csvfile, fieldnames=field_names, quoting=csv.QUOTE_ALL)
+            writer.writeheader()
+            writer.writerows(y)
 
     log_message = datetime.now().strftime("%d/%m/%Y %H:%M:%S"), "= The scrapping is fifnished."    
     return log_message
 
 # run
-m = scrapper_run(pages_limit = 1, limks_limit=10) 
+m = scrapper_run(pages_limit = 2, limks_limit = 20) 
 print(m)
