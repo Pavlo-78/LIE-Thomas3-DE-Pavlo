@@ -14,12 +14,13 @@ class w_page():
         @property
         def info(self): return f'{self.__desc}, {self.__url}'
 # ----------------------------------------------------------------------------------------------class2
-import sys
+import os
 import json
 import requests
 from bs4 import BeautifulSoup
 from datetime import datetime
 # import class1_wp_home as c1
+import sys
 # sys.stdout.reconfigure(encoding='utf-8')
 
 # A class of the search web page, that inherits from the class of the home page 
@@ -42,7 +43,8 @@ class wpage_links(w_page):
         :return: File web_urls_.json with list of links/
         """  
             # log message
-        tmf=r"%d/%m/%Y %H:%M:%S" # time format for message
+        tmf = r"%d/%m/%Y %H:%M:%S" # time format for message
+        fpath = os.path.dirname(os.path.abspath(__file__))
         print(datetime.now().strftime(tmf),"=", 'Scrapping links is started...') 
 
         self.count_page = count_page      
@@ -81,7 +83,7 @@ class wpage_links(w_page):
             
         #
         var_json = json.dumps(lst_urls, indent=2, ensure_ascii=False) #indent=2 >> pretty-printing      
-        with open("web_urls_1.json", "w", encoding='utf-8') as var_jf:
+        with open(fpath + '/web_urls_1.json', "w", encoding='utf-8') as var_jf:
             var_jf.write(var_json) 
 
             # log message
@@ -94,6 +96,7 @@ import sys
 import json
 import requests
 from bs4 import BeautifulSoup
+import os
 # import class2_wp_links as c2 #utils.
 # sys.stdout.reconfigure(encoding='utf-8')
 
@@ -115,6 +118,7 @@ class wpage_property(wpage_links):
         (fills this dictionary with data)
         """  
         #
+        fpath = os.path.dirname(os.path.abspath(__file__))       
         r = requests.get(self.url)
         #
         s = BeautifulSoup(r.text, "lxml")        
@@ -130,8 +134,8 @@ class wpage_property(wpage_links):
             # print(type(json_dbg))
         json_dbg  = '.\nThe row text of last processed web page.'
         json_dbg += f'\nLink number:{self.N}\n'
-        json_dbg += json.dumps(self.row_data, indent=2, ensure_ascii=False) #indent=2 >> pretty-printing 
-        with open("web_row_data.json", "w", encoding='utf-8') as v_jf: 
+        json_dbg += json.dumps(self.row_data, indent=2, ensure_ascii=False) #indent=2 >> fpath = os.fpath = path.dirname(os.path.abspath(__file__))
+        with open(fpath + "/web_row_data.json", "w", encoding='utf-8') as v_jf: 
             v_jf.write(json_dbg) 
     # ---------------------------------
         if self.row_data["property"]["type"] in ["APARTMENT_GROUP","HOUSE_GROUP"]:  
@@ -147,8 +151,8 @@ class wpage_property(wpage_links):
                     # noo = str(self.Nch) #+ "/" + str(var_x)
                     lst_urls2.append({"N":self.N, "Nch":var_x, "url":href})
                     var_x+=1  
-            var_json = json.dumps(lst_urls2, indent=2, ensure_ascii=False) #indent=2 >pretty-printing          
-            with open("web_urls_2.json", "a", encoding='utf-8') as var_jf:
+            var_json = json.dumps(lst_urls2, indent=2, ensure_ascii=False) #indent=2 >pretty-printing   
+            with open(fpath + '/web_urls_2.json', "a", encoding='utf-8') as var_jf:
                 var_jf.write(var_json) 
 
     # ---------------------------------
@@ -364,7 +368,7 @@ from datetime import datetime
 class Scrapper():
     pass
 
-    def proc_links(self, coumter, file_json):
+    def proc_links(self, coumter, file_json, limit_links=None):
         """
         A function that reads links from the specified json file and starts processing links one by one
 
@@ -374,14 +378,15 @@ class Scrapper():
         # open json file with ordinary links to (jurls) list
         tmf=r"%d/%m/%Y %H:%M:%S" # time format for message
         print( datetime.now().strftime(tmf) +" = Processing links from " + file_json )
-        lst=[]
+        lst, fpath = [], os.path.dirname(os.path.abspath(__file__))
+        
         try:
-            with open(file_json, encoding='utf-8') as f: 
+            with open(fpath +'/'+file_json, encoding='utf-8') as f: 
                 fj = f.read().replace('][', ',')              
                 jurls = json.loads(fj)
             # link by limk 
 # ---------------------------------------------------------------------------
-            for u in (jurls[:20]): # for DEBUG set replace "jurls" to "jurls[:10]"
+            for u in (jurls[:limit_links]): # for DEBUG set replace "jurls" to "jurls[:10]"
                 p = wpage_property( "obj"+str(u['Nch']), u["url"], N=u['N'], Nch=u['Nch'])  # create immo objects 
                 if p.get_data_page()==True: # if page handling is succeeded      
                     #message every 100 processed links
@@ -407,14 +412,12 @@ class Scrapper():
 
   
 import csv
-# import include.class1_wp_home as c1
-# import include.class2_wp_links as c2
-# import include.class4_wp_scrapp as c4
+import os
 from datetime import datetime
 import sys
 # sys.stdout.reconfigure(encoding='utf-8')
 
-def scrapper_run():        
+def scrapper_run(pages_limit=500, limks_limit=None):        
     """---------------------------------
     ------- START SCRAPPING ------------
     ---------------------------------"""
@@ -424,26 +427,28 @@ def scrapper_run():
     obj_wpage_home  = w_page(desc,url1) 
     ooj_wpage_links = wpage_links("webpage with ad links", obj_wpage_home.url + url2) 
     obj_scr         = Scrapper()
-    pages_for_scrap = 5     # normally = 500 ++  line 26
+    fpath           = os.path.dirname(os.path.abspath(__file__))
+    # pages_for_scrap = 5     # normally = 500 ++  line 26
 
     # clear file with group links
-    with open('web_urls_2.json', 'w', encoding='utf-8') as f:
+    fpath = os.path.dirname(os.path.abspath(__file__))
+    with open(fpath + '/web_urls_2.json', 'w', encoding='utf-8') as f:
         f.write('')
 
     # getting standart links, save them to json-file and get count scrapped links
-    ooj_wpage_links.get_links(pages_for_scrap) 
+    ooj_wpage_links.get_links(pages_limit) 
 
-    # Starting link processing and saving data to the list of dictionaries
+    # Starting link processing and saving data to the list of dictionaries    
     y = list()
-    y = obj_scr.proc_links(1,"web_urls_1.json") # json 1
-    y +=obj_scr.proc_links(1,"web_urls_2.json") # json 2 - adding to y
+    y = obj_scr.proc_links(1, "web_urls_1.json",limks_limit) # json 1
+    y +=obj_scr.proc_links(1, "web_urls_2.json",limks_limit) # json 2 - adding to y
 
 
     # preparing save dict to CSV
         # get headers 
     field_names = y[0].keys() # get all keys od dict for csv.DictWriter
         # writing dict to CSV
-    with open('web_urls_data.csv', 'w', newline='', encoding='utf-8') as csvfile:
+    with open(fpath + '/web_urls_data.csv', 'w', newline='', encoding='utf-8') as csvfile:
         writer = csv.DictWriter(csvfile, fieldnames=field_names, quoting=csv.QUOTE_ALL)
         writer.writeheader()
         writer.writerows(y)
@@ -452,5 +457,5 @@ def scrapper_run():
     return log_message
 
 # run
-m = scrapper_run()
+m = scrapper_run(pages_limit = 1, limks_limit=10) 
 print(m)

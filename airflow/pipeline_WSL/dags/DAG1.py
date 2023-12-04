@@ -27,8 +27,8 @@ dag1 = DAG(
                     'start_date': datetime(2023, 1, 1),
                     'retries': 1,
                     'retry_delay': timedelta(minutes=1),    },
-    # You can adjust the interval based on your needs-----------------
-    schedule_interval=timedelta(minutes=1),  
+    # The interval 
+    schedule_interval=timedelta(minutes=1),  #------------------------------------------
      # Set to False to ignore any historical runs
     catchup=False, 
     # dag_run_timeout=timedelta(minutes=60),
@@ -52,13 +52,14 @@ def execute_task(x, **kwargs):
 t1 = DummyOperator(task_id='task_t1',  dag=dag1, )
 
 t2 = PythonOperator(
-        task_id='scrap_immoweb',
+        task_id = 'scrap_immoweb',
         python_callable=execute_task,
-        op_args=[1],
-        provide_context=True,
-        execution_timeout=timedelta(seconds=10), # time-out to stop task by airflow
+        op_args = [1],
+        provide_context = True,
+        # -time-out to stop task by airflow
+        execution_timeout = timedelta(seconds = (60*60*3)), #------------------------------
         # timeout=60, 
-        dag=dag1,  
+        dag = dag1,  
         )
 
 te = DummyOperator(task_id='task_te', dag=dag1,)
