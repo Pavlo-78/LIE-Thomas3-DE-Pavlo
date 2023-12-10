@@ -1,33 +1,33 @@
 .
 The row text of last processed web page.
-Link number:2614
+Link number:15405
 {
-  "id": 10996005,
+  "id": 11010174,
   "cluster": null,
   "customers": [
     {
-      "id": 3539317,
+      "id": 2373640,
       "type": "AGENCY",
-      "email": "heylenvastgoed@omniwebsites.be",
-      "logoUrl": "https://static.immoweb.be/logos/3539317.gif?cache=2020511105350",
-      "phoneNumber": "+32 3 376 46 40",
-      "mobileNumber": null,
-      "name": "Heylen Vastgoed Deurne",
-      "website": "http://www.heylenvastgoed.be",
+      "email": "mvastgoedheule@contactme.skarabee.com",
+      "logoUrl": "https://static.immoweb.be/logos/2373640.gif?cache=2021550801510",
+      "phoneNumber": "+32 56 19 01 00",
+      "mobileNumber": "+32 56 19 01 00",
+      "name": "M Vastgoed",
+      "website": "http://www.mvastgoed.be",
       "location": {
         "country": "Belgium",
         "region": null,
-        "province": "Antwerp",
-        "district": "Antwerp",
-        "locality": "Deurne",
-        "postalCode": "2100",
-        "street": "Bischoppenhoflaan 284",
+        "province": "West Flanders",
+        "district": "Kortrijk",
+        "locality": "Kortrijk",
+        "postalCode": "8500",
+        "street": "Heuleplaats, 16",
         "number": null,
         "box": null,
         "propertyName": null,
         "floor": null,
-        "latitude": 51.2324538,
-        "longitude": 4.4580806,
+        "latitude": 50.8430334,
+        "longitude": 3.2346786,
         "distance": null,
         "approximated": null,
         "regionCode": null,
@@ -36,7 +36,7 @@ Link number:2614
         "pointsOfInterest": null,
         "placeName": null
       },
-      "ipiNo": null,
+      "ipiNo": "508.125",
       "isOwner": true,
       "contactHoursMobile": "anytime",
       "contactHoursLandline": "anytime",
@@ -81,93 +81,105 @@ Link number:2614
   "media": {
     "pictures": [
       {
-        "smallUrl": "https://static.immoweb.be/photos/1/0/9/9/6/0/0/5/10996005_1.gif?cache=20231204144855",
-        "mediumUrl": "https://static.immoweb.be/photos/1/0/9/9/6/0/0/5/M_10996005_1.jpg?cache=20231204144855",
-        "largeUrl": "https://static.immoweb.be/photos/1/0/9/9/6/0/0/5/10996005_1.jpg?cache=20231204144855",
+        "smallUrl": "https://media-resize.immowebstatic.be/classifieds/8a8b092d-be89-44cf-bde9-b875e314ee31/100x100/0e466df757d27ec7314041f651e4e2ed.jpg?cache=20231210145743",
+        "mediumUrl": "https://media-resize.immowebstatic.be/classifieds/8a8b092d-be89-44cf-bde9-b875e314ee31/300x300/0e466df757d27ec7314041f651e4e2ed.jpg?cache=20231210145743",
+        "largeUrl": "https://media-resize.immowebstatic.be/classifieds/8a8b092d-be89-44cf-bde9-b875e314ee31/736x736/0e466df757d27ec7314041f651e4e2ed.jpg?cache=20231210145743",
         "isVertical": false
       },
       {
-        "smallUrl": "https://static.immoweb.be/photos/1/0/9/9/6/0/0/5/10996005_2.gif?cache=20231204144855",
-        "mediumUrl": "https://static.immoweb.be/photos/1/0/9/9/6/0/0/5/M_10996005_2.jpg?cache=20231204144855",
-        "largeUrl": "https://static.immoweb.be/photos/1/0/9/9/6/0/0/5/10996005_2.jpg?cache=20231204144855",
+        "smallUrl": "https://media-resize.immowebstatic.be/classifieds/8a8b092d-be89-44cf-bde9-b875e314ee31/100x100/94f8d9db91bd60df1b8a80f92d13075c.jpg?cache=20231210145743",
+        "mediumUrl": "https://media-resize.immowebstatic.be/classifieds/8a8b092d-be89-44cf-bde9-b875e314ee31/300x300/94f8d9db91bd60df1b8a80f92d13075c.jpg?cache=20231210145743",
+        "largeUrl": "https://media-resize.immowebstatic.be/classifieds/8a8b092d-be89-44cf-bde9-b875e314ee31/736x736/94f8d9db91bd60df1b8a80f92d13075c.jpg?cache=20231210145743",
         "isVertical": false
       },
       {
-        "smallUrl": "https://static.immoweb.be/photos/1/0/9/9/6/0/0/5/10996005_3.gif?cache=20231204144855",
-        "mediumUrl": "https://static.immoweb.be/photos/1/0/9/9/6/0/0/5/M_10996005_3.jpg?cache=20231204144855",
-        "largeUrl": "https://static.immoweb.be/photos/1/0/9/9/6/0/0/5/10996005_3.jpg?cache=20231204144855",
+        "smallUrl": "https://media-resize.immowebstatic.be/classifieds/8a8b092d-be89-44cf-bde9-b875e314ee31/100x100/e563c2dddc5291d3154478423a769364.jpg?cache=20231210145743",
+        "mediumUrl": "https://media-resize.immowebstatic.be/classifieds/8a8b092d-be89-44cf-bde9-b875e314ee31/300x300/e563c2dddc5291d3154478423a769364.jpg?cache=20231210145743",
+        "largeUrl": "https://media-resize.immowebstatic.be/classifieds/8a8b092d-be89-44cf-bde9-b875e314ee31/736x736/e563c2dddc5291d3154478423a769364.jpg?cache=20231210145743",
         "isVertical": false
       },
       {
-        "smallUrl": "https://static.immoweb.be/photos/1/0/9/9/6/0/0/5/10996005_4.gif?cache=20231204144855",
-        "mediumUrl": "https://static.immoweb.be/photos/1/0/9/9/6/0/0/5/M_10996005_4.jpg?cache=20231204144855",
-        "largeUrl": "https://static.immoweb.be/photos/1/0/9/9/6/0/0/5/10996005_4.jpg?cache=20231204144855",
+        "smallUrl": "https://media-resize.immowebstatic.be/classifieds/8a8b092d-be89-44cf-bde9-b875e314ee31/100x100/678be3aa760e0dd268d45f351f7ca22e.jpg?cache=20231210145743",
+        "mediumUrl": "https://media-resize.immowebstatic.be/classifieds/8a8b092d-be89-44cf-bde9-b875e314ee31/300x300/678be3aa760e0dd268d45f351f7ca22e.jpg?cache=20231210145743",
+        "largeUrl": "https://media-resize.immowebstatic.be/classifieds/8a8b092d-be89-44cf-bde9-b875e314ee31/736x736/678be3aa760e0dd268d45f351f7ca22e.jpg?cache=20231210145743",
         "isVertical": false
       },
       {
-        "smallUrl": "https://static.immoweb.be/photos/1/0/9/9/6/0/0/5/10996005_5.gif?cache=20231204144855",
-        "mediumUrl": "https://static.immoweb.be/photos/1/0/9/9/6/0/0/5/M_10996005_5.jpg?cache=20231204144855",
-        "largeUrl": "https://static.immoweb.be/photos/1/0/9/9/6/0/0/5/10996005_5.jpg?cache=20231204144855",
+        "smallUrl": "https://media-resize.immowebstatic.be/classifieds/8a8b092d-be89-44cf-bde9-b875e314ee31/100x100/9ef454d2057fa4d0b9fa1432b5ed96bf.jpg?cache=20231210145743",
+        "mediumUrl": "https://media-resize.immowebstatic.be/classifieds/8a8b092d-be89-44cf-bde9-b875e314ee31/300x300/9ef454d2057fa4d0b9fa1432b5ed96bf.jpg?cache=20231210145743",
+        "largeUrl": "https://media-resize.immowebstatic.be/classifieds/8a8b092d-be89-44cf-bde9-b875e314ee31/736x736/9ef454d2057fa4d0b9fa1432b5ed96bf.jpg?cache=20231210145743",
         "isVertical": false
       },
       {
-        "smallUrl": "https://static.immoweb.be/photos/1/0/9/9/6/0/0/5/10996005_6.gif?cache=20231204144855",
-        "mediumUrl": "https://static.immoweb.be/photos/1/0/9/9/6/0/0/5/M_10996005_6.jpg?cache=20231204144855",
-        "largeUrl": "https://static.immoweb.be/photos/1/0/9/9/6/0/0/5/10996005_6.jpg?cache=20231204144855",
+        "smallUrl": "https://media-resize.immowebstatic.be/classifieds/8a8b092d-be89-44cf-bde9-b875e314ee31/100x100/ed623c5a917925d3c5422d459a2e6dd8.jpg?cache=20231210145743",
+        "mediumUrl": "https://media-resize.immowebstatic.be/classifieds/8a8b092d-be89-44cf-bde9-b875e314ee31/300x300/ed623c5a917925d3c5422d459a2e6dd8.jpg?cache=20231210145743",
+        "largeUrl": "https://media-resize.immowebstatic.be/classifieds/8a8b092d-be89-44cf-bde9-b875e314ee31/736x736/ed623c5a917925d3c5422d459a2e6dd8.jpg?cache=20231210145743",
         "isVertical": false
       },
       {
-        "smallUrl": "https://static.immoweb.be/photos/1/0/9/9/6/0/0/5/10996005_7.gif?cache=20231204144855",
-        "mediumUrl": "https://static.immoweb.be/photos/1/0/9/9/6/0/0/5/M_10996005_7.jpg?cache=20231204144855",
-        "largeUrl": "https://static.immoweb.be/photos/1/0/9/9/6/0/0/5/10996005_7.jpg?cache=20231204144855",
+        "smallUrl": "https://media-resize.immowebstatic.be/classifieds/8a8b092d-be89-44cf-bde9-b875e314ee31/100x100/50f95445d06f41e6de60245205e7f2e4.jpg?cache=20231210145743",
+        "mediumUrl": "https://media-resize.immowebstatic.be/classifieds/8a8b092d-be89-44cf-bde9-b875e314ee31/300x300/50f95445d06f41e6de60245205e7f2e4.jpg?cache=20231210145743",
+        "largeUrl": "https://media-resize.immowebstatic.be/classifieds/8a8b092d-be89-44cf-bde9-b875e314ee31/736x736/50f95445d06f41e6de60245205e7f2e4.jpg?cache=20231210145743",
         "isVertical": false
       },
       {
-        "smallUrl": "https://static.immoweb.be/photos/1/0/9/9/6/0/0/5/10996005_8.gif?cache=20231204144855",
-        "mediumUrl": "https://static.immoweb.be/photos/1/0/9/9/6/0/0/5/M_10996005_8.jpg?cache=20231204144855",
-        "largeUrl": "https://static.immoweb.be/photos/1/0/9/9/6/0/0/5/10996005_8.jpg?cache=20231204144855",
+        "smallUrl": "https://media-resize.immowebstatic.be/classifieds/8a8b092d-be89-44cf-bde9-b875e314ee31/100x100/97cf800922a700319a680ed187c29869.jpg?cache=20231210145743",
+        "mediumUrl": "https://media-resize.immowebstatic.be/classifieds/8a8b092d-be89-44cf-bde9-b875e314ee31/300x300/97cf800922a700319a680ed187c29869.jpg?cache=20231210145743",
+        "largeUrl": "https://media-resize.immowebstatic.be/classifieds/8a8b092d-be89-44cf-bde9-b875e314ee31/736x736/97cf800922a700319a680ed187c29869.jpg?cache=20231210145743",
         "isVertical": false
       },
       {
-        "smallUrl": "https://static.immoweb.be/photos/1/0/9/9/6/0/0/5/10996005_9.gif?cache=20231204144855",
-        "mediumUrl": "https://static.immoweb.be/photos/1/0/9/9/6/0/0/5/M_10996005_9.jpg?cache=20231204144855",
-        "largeUrl": "https://static.immoweb.be/photos/1/0/9/9/6/0/0/5/10996005_9.jpg?cache=20231204144855",
+        "smallUrl": "https://media-resize.immowebstatic.be/classifieds/8a8b092d-be89-44cf-bde9-b875e314ee31/100x100/9e200787c658546110c8a67257fd95d7.jpg?cache=20231210145743",
+        "mediumUrl": "https://media-resize.immowebstatic.be/classifieds/8a8b092d-be89-44cf-bde9-b875e314ee31/300x300/9e200787c658546110c8a67257fd95d7.jpg?cache=20231210145743",
+        "largeUrl": "https://media-resize.immowebstatic.be/classifieds/8a8b092d-be89-44cf-bde9-b875e314ee31/736x736/9e200787c658546110c8a67257fd95d7.jpg?cache=20231210145743",
         "isVertical": false
       },
       {
-        "smallUrl": "https://static.immoweb.be/photos/1/0/9/9/6/0/0/5/10996005_0.gif?cache=20231204144855",
-        "mediumUrl": "https://static.immoweb.be/photos/1/0/9/9/6/0/0/5/M_10996005_0.jpg?cache=20231204144855",
-        "largeUrl": "https://static.immoweb.be/photos/1/0/9/9/6/0/0/5/10996005_0.jpg?cache=20231204144855",
+        "smallUrl": "https://media-resize.immowebstatic.be/classifieds/8a8b092d-be89-44cf-bde9-b875e314ee31/100x100/163955c49c87a73435c44832820d217a.jpg?cache=20231210145743",
+        "mediumUrl": "https://media-resize.immowebstatic.be/classifieds/8a8b092d-be89-44cf-bde9-b875e314ee31/300x300/163955c49c87a73435c44832820d217a.jpg?cache=20231210145743",
+        "largeUrl": "https://media-resize.immowebstatic.be/classifieds/8a8b092d-be89-44cf-bde9-b875e314ee31/736x736/163955c49c87a73435c44832820d217a.jpg?cache=20231210145743",
         "isVertical": false
       },
       {
-        "smallUrl": "https://static.immoweb.be/photos/1/0/9/9/6/0/0/5/10996005_A.gif?cache=20231204144855",
-        "mediumUrl": "https://static.immoweb.be/photos/1/0/9/9/6/0/0/5/M_10996005_A.jpg?cache=20231204144855",
-        "largeUrl": "https://static.immoweb.be/photos/1/0/9/9/6/0/0/5/10996005_A.jpg?cache=20231204144855",
+        "smallUrl": "https://media-resize.immowebstatic.be/classifieds/8a8b092d-be89-44cf-bde9-b875e314ee31/100x100/17ea9f155f1e37536b6d92a711d45c9a.jpg?cache=20231210145743",
+        "mediumUrl": "https://media-resize.immowebstatic.be/classifieds/8a8b092d-be89-44cf-bde9-b875e314ee31/300x300/17ea9f155f1e37536b6d92a711d45c9a.jpg?cache=20231210145743",
+        "largeUrl": "https://media-resize.immowebstatic.be/classifieds/8a8b092d-be89-44cf-bde9-b875e314ee31/736x736/17ea9f155f1e37536b6d92a711d45c9a.jpg?cache=20231210145743",
         "isVertical": false
       },
       {
-        "smallUrl": "https://static.immoweb.be/photos/1/0/9/9/6/0/0/5/10996005_B.gif?cache=20231204144855",
-        "mediumUrl": "https://static.immoweb.be/photos/1/0/9/9/6/0/0/5/M_10996005_B.jpg?cache=20231204144855",
-        "largeUrl": "https://static.immoweb.be/photos/1/0/9/9/6/0/0/5/10996005_B.jpg?cache=20231204144855",
+        "smallUrl": "https://media-resize.immowebstatic.be/classifieds/8a8b092d-be89-44cf-bde9-b875e314ee31/100x100/5d300c7a056bb0ca9e39793dacd56780.jpg?cache=20231210145743",
+        "mediumUrl": "https://media-resize.immowebstatic.be/classifieds/8a8b092d-be89-44cf-bde9-b875e314ee31/300x300/5d300c7a056bb0ca9e39793dacd56780.jpg?cache=20231210145743",
+        "largeUrl": "https://media-resize.immowebstatic.be/classifieds/8a8b092d-be89-44cf-bde9-b875e314ee31/736x736/5d300c7a056bb0ca9e39793dacd56780.jpg?cache=20231210145743",
         "isVertical": false
       },
       {
-        "smallUrl": "https://static.immoweb.be/photos/1/0/9/9/6/0/0/5/10996005_C.gif?cache=20231204144855",
-        "mediumUrl": "https://static.immoweb.be/photos/1/0/9/9/6/0/0/5/M_10996005_C.jpg?cache=20231204144855",
-        "largeUrl": "https://static.immoweb.be/photos/1/0/9/9/6/0/0/5/10996005_C.jpg?cache=20231204144855",
+        "smallUrl": "https://media-resize.immowebstatic.be/classifieds/8a8b092d-be89-44cf-bde9-b875e314ee31/100x100/785fdc70e25537a3cb81081bc1af62a0.jpg?cache=20231210145743",
+        "mediumUrl": "https://media-resize.immowebstatic.be/classifieds/8a8b092d-be89-44cf-bde9-b875e314ee31/300x300/785fdc70e25537a3cb81081bc1af62a0.jpg?cache=20231210145743",
+        "largeUrl": "https://media-resize.immowebstatic.be/classifieds/8a8b092d-be89-44cf-bde9-b875e314ee31/736x736/785fdc70e25537a3cb81081bc1af62a0.jpg?cache=20231210145743",
         "isVertical": false
       },
       {
-        "smallUrl": "https://static.immoweb.be/photos/1/0/9/9/6/0/0/5/10996005_D.gif?cache=20231204144855",
-        "mediumUrl": "https://static.immoweb.be/photos/1/0/9/9/6/0/0/5/M_10996005_D.jpg?cache=20231204144855",
-        "largeUrl": "https://static.immoweb.be/photos/1/0/9/9/6/0/0/5/10996005_D.jpg?cache=20231204144855",
+        "smallUrl": "https://media-resize.immowebstatic.be/classifieds/8a8b092d-be89-44cf-bde9-b875e314ee31/100x100/2beef22ab6d89b9ce438cc2d8118f67b.jpg?cache=20231210145743",
+        "mediumUrl": "https://media-resize.immowebstatic.be/classifieds/8a8b092d-be89-44cf-bde9-b875e314ee31/300x300/2beef22ab6d89b9ce438cc2d8118f67b.jpg?cache=20231210145743",
+        "largeUrl": "https://media-resize.immowebstatic.be/classifieds/8a8b092d-be89-44cf-bde9-b875e314ee31/736x736/2beef22ab6d89b9ce438cc2d8118f67b.jpg?cache=20231210145743",
         "isVertical": false
       },
       {
-        "smallUrl": "https://static.immoweb.be/photos/1/0/9/9/6/0/0/5/10996005_E.gif?cache=20231204144855",
-        "mediumUrl": "https://static.immoweb.be/photos/1/0/9/9/6/0/0/5/M_10996005_E.jpg?cache=20231204144855",
-        "largeUrl": "https://static.immoweb.be/photos/1/0/9/9/6/0/0/5/10996005_E.jpg?cache=20231204144855",
+        "smallUrl": "https://media-resize.immowebstatic.be/classifieds/8a8b092d-be89-44cf-bde9-b875e314ee31/100x100/2e2d18e771d0bb783427fc99a0aa7aeb.jpg?cache=20231210145743",
+        "mediumUrl": "https://media-resize.immowebstatic.be/classifieds/8a8b092d-be89-44cf-bde9-b875e314ee31/300x300/2e2d18e771d0bb783427fc99a0aa7aeb.jpg?cache=20231210145743",
+        "largeUrl": "https://media-resize.immowebstatic.be/classifieds/8a8b092d-be89-44cf-bde9-b875e314ee31/736x736/2e2d18e771d0bb783427fc99a0aa7aeb.jpg?cache=20231210145743",
+        "isVertical": false
+      },
+      {
+        "smallUrl": "https://media-resize.immowebstatic.be/classifieds/8a8b092d-be89-44cf-bde9-b875e314ee31/100x100/e37c967f42dd339e02f5eeda9b9fddc9.jpg?cache=20231210145743",
+        "mediumUrl": "https://media-resize.immowebstatic.be/classifieds/8a8b092d-be89-44cf-bde9-b875e314ee31/300x300/e37c967f42dd339e02f5eeda9b9fddc9.jpg?cache=20231210145743",
+        "largeUrl": "https://media-resize.immowebstatic.be/classifieds/8a8b092d-be89-44cf-bde9-b875e314ee31/736x736/e37c967f42dd339e02f5eeda9b9fddc9.jpg?cache=20231210145743",
+        "isVertical": false
+      },
+      {
+        "smallUrl": "https://media-resize.immowebstatic.be/classifieds/8a8b092d-be89-44cf-bde9-b875e314ee31/100x100/dab415b2f3e6b085292b03eed0c1882a.jpg?cache=20231210145743",
+        "mediumUrl": "https://media-resize.immowebstatic.be/classifieds/8a8b092d-be89-44cf-bde9-b875e314ee31/300x300/dab415b2f3e6b085292b03eed0c1882a.jpg?cache=20231210145743",
+        "largeUrl": "https://media-resize.immowebstatic.be/classifieds/8a8b092d-be89-44cf-bde9-b875e314ee31/736x736/dab415b2f3e6b085292b03eed0c1882a.jpg?cache=20231210145743",
         "isVertical": false
       }
     ],
@@ -179,90 +191,83 @@ Link number:2614
   "property": {
     "type": "HOUSE",
     "subtype": "HOUSE",
-    "title": "House",
-    "description": "Sorry, there is no English translation. Te renoveren woning met tuin en 2 slpks te Deurne! <br><br>Deze confortawoning is gelegen in de Meeuwenhoflei te Deurne. Een rustige straat met alle dagelijkse faciliteiten zoals winkels, scholen en openbaar vervoer op wandelafstand. <br><br>Indeling: <br><br>- Bovenverdieping: leefruimte, keuken, apart toilet, slaapkamer<br>- Benedenverdieping: slaapkamer, tussenruimte, badkamer, extra keuken, wasplaats en tuin <br><br>Omschrijving:<br><br>We betreden de woning via de inkomhal waar we via een houten trap zowel toegang hebben tot de bovenverdieping als de benedenverdieping. Bovenaan komen we in de leefruimte van ongeveer 26m², grenzend aan een open keuken met een achterliggend apart toilet. Op debeneden verdieping is er extra bergruimte onder de trap, een tweede slaapkamer aan de voorzijde, een veelzijdige tussenruimte en een badkamer. Daarnaast beschikt deze woning over een extra keuken en plek voor de wasmachine. Via een schuifraam in de keuken beneden bereikt u de aangelegde tuin met een westelijke oriëntatie, compleet met een handige tuinhuis. <br><br>Extra's: <br><br>- Te renoveren in functie van eigen smaak<br>- Mogelijkheid tot extra slaapkamer <br>- Mooie tuin <br>- Vermelde oppervlaktes/afmetingen zijn indicatief<br>- Centrale ligging te Deurne! <br> Voor meer informatie, kijk snel op www.heylenvastgoed.be. Interesse in een GRATIS SCHATTING van uw eigendom? Bel 0800/29.223",
+    "title": null,
+    "description": null,
     "name": null,
     "isHolidayProperty": null,
-    "bedroomCount": 2,
-    "bedrooms": [
-      {
-        "surface": 13
-      },
-      {
-        "surface": 12
-      }
-    ],
+    "bedroomCount": 3,
+    "bedrooms": [],
     "bathroomCount": 1,
     "bathrooms": [],
     "location": {
       "country": "Belgium",
       "region": "Flanders",
-      "province": "Antwerp",
-      "district": "Antwerp",
-      "locality": "Deurne",
-      "postalCode": "2100",
-      "street": "Meeuwenhoflei",
-      "number": "111",
+      "province": "West Flanders",
+      "district": "Kortrijk",
+      "locality": "Kortrijk",
+      "postalCode": "8500",
+      "street": "Moorseelsestraat",
+      "number": "97",
       "box": null,
       "propertyName": null,
       "floor": null,
-      "latitude": 51.2286888,
-      "longitude": 4.4522494,
+      "latitude": 50.8317899,
+      "longitude": 3.2490084,
       "distance": null,
       "approximated": null,
       "regionCode": "FLANDERS",
-      "type": null,
+      "type": "FITTED_OUT",
       "hasSeaView": null,
       "pointsOfInterest": [
         {
           "type": "SCHOOL",
-          "distance": 342
+          "distance": 0
         },
         {
           "type": "SHOPS",
-          "distance": 953
+          "distance": 0
         },
         {
           "type": "TRANSPORT",
-          "distance": -1
+          "distance": 0
         }
       ],
       "placeName": null
     },
-    "netHabitableSurface": 125,
-    "roomCount": null,
+    "netHabitableSurface": 133,
+    "roomCount": 1,
     "monthlyCosts": null,
     "attic": null,
     "hasAttic": null,
     "basement": null,
     "hasBasement": null,
-    "hasDressingRoom": null,
+    "hasDressingRoom": false,
     "diningRoom": null,
     "hasDiningRoom": null,
     "building": {
       "annexCount": null,
-      "condition": "TO_RENOVATE",
-      "constructionYear": 1947,
+      "condition": "GOOD",
+      "constructionYear": null,
       "facadeCount": 2,
       "floorCount": null,
-      "streetFacadeWidth": null
+      "streetFacadeWidth": 4.5
     },
     "propertyCertificates": {
-      "builtPlanStatus": "NO",
+      "builtPlanStatus": null,
       "globalInsulationLevel": null,
       "oilTankCertificateStatus": null,
       "primaryEnergyConsumptionLevel": 0
     },
-    "hasCaretakerOrConcierge": null,
-    "hasDisabledAccess": null,
-    "hasLift": null,
+    "hasCaretakerOrConcierge": false,
+    "hasDisabledAccess": false,
+    "hasLift": false,
     "constructionPermit": {
-      "constructionType": null,
+      "constructionType": "ALL_KIND",
       "floodZoneType": "NON_FLOOD_ZONE",
-      "isObtained": true,
-      "hasObligationToConstruct": null,
+      "isObtained": false,
+      "hasObligationToConstruct": false,
       "hasPlotDivisionAuthorization": false,
-      "hasPossiblePriorityPurchaseRight": true,
+      "hasPossiblePriorityPurchaseRight": false,
       "isBreachingUrbanPlanningRegulation": false,
       "floodZoneIconUrl": null,
       "totalBuildableGroundFloorSurface": 0,
@@ -271,63 +276,51 @@ Link number:2614
       "gScore": null
     },
     "energy": {
-      "heatingType": "ELECTRIC",
+      "heatingType": null,
       "hasHeatPump": null,
       "hasPhotovoltaicPanels": null,
       "hasThermicPanels": null,
       "hasCollectiveWaterHeater": null,
-      "hasDoubleGlazing": true,
+      "hasDoubleGlazing": false,
       "performance": null
     },
-    "kitchen": {
-      "surface": null,
-      "type": "NOT_INSTALLED",
-      "hasOven": null,
-      "hasMicroWaveOven": null,
-      "hasDishwasher": null,
-      "hasWashingMachine": null,
-      "hasFridge": null,
-      "hasFreezer": null,
-      "hasSteamOven": null
-    },
+    "kitchen": null,
     "land": {
       "hasGasWaterElectricityConnection": true,
-      "hasPlotToRear": null,
-      "isFacingStreet": null,
-      "isFlat": null,
-      "isWooded": null,
-      "landWidth": 0,
+      "hasPlotToRear": true,
+      "isFacingStreet": false,
+      "isFlat": true,
+      "isWooded": false,
+      "landWidth": 4,
       "latestUseDesignation": "RES",
       "rearLand": null,
-      "sewerConnection": null,
-      "surface": 0
+      "sewerConnection": "CONNECTED",
+      "surface": 122
     },
     "laundryRoom": null,
     "hasLaundryRoom": null,
-    "livingRoom": {
-      "surface": 26
-    },
+    "livingRoom": null,
     "hasLivingRoom": true,
     "isFirstOccupation": null,
     "hasBalcony": null,
     "hasBarbecue": null,
-    "hasGarden": true,
-    "gardenSurface": 58,
-    "gardenOrientation": "WEST",
+    "hasGarden": null,
+    "gardenSurface": null,
+    "gardenOrientation": null,
     "parkingCountIndoor": null,
     "parkingCountOutdoor": null,
     "parkingCountClosedBox": null,
-    "hasAirConditioning": null,
-    "hasArmoredDoor": null,
-    "hasVisiophone": null,
-    "hasSecureAccessAlarm": null,
-    "hasCableTV": null,
-    "hasDoorPhone": null,
-    "hasInternet": null,
+    "hasAirConditioning": false,
+    "hasArmoredDoor": false,
+    "hasVisiophone": false,
+    "hasSecureAccessAlarm": false,
+    "hasCableTV": false,
+    "hasDoorPhone": false,
+    "hasInternet": false,
     "showerRoomCount": 0,
     "showerRooms": [],
     "specificities": null,
-    "toiletCount": 2,
+    "toiletCount": null,
     "toilets": [],
     "hasFitnessRoom": null,
     "hasTennisCourt": null,
@@ -337,50 +330,53 @@ Link number:2614
     "hasHammam": null,
     "bedroomSurface": null,
     "alternativeDescriptions": {
-      "fr": "Désolé il n'y a pas de traduction française. Te renoveren woning met tuin en 2 slpks te Deurne! <br><br>Deze confortawoning is gelegen in de Meeuwenhoflei te Deurne. Een rustige straat met alle dagelijkse faciliteiten zoals winkels, scholen en openbaar vervoer op wandelafstand. <br><br>Indeling: <br><br>- Bovenverdieping: leefruimte, keuken, apart toilet, slaapkamer<br>- Benedenverdieping: slaapkamer, tussenruimte, badkamer, extra keuken, wasplaats en tuin <br><br>Omschrijving:<br><br>We betreden de woning via de inkomhal waar we via een houten trap zowel toegang hebben tot de bovenverdieping als de benedenverdieping. Bovenaan komen we in de leefruimte van ongeveer 26m², grenzend aan een open keuken met een achterliggend apart toilet. Op debeneden verdieping is er extra bergruimte onder de trap, een tweede slaapkamer aan de voorzijde, een veelzijdige tussenruimte en een badkamer. Daarnaast beschikt deze woning over een extra keuken en plek voor de wasmachine. Via een schuifraam in de keuken beneden bereikt u de aangelegde tuin met een westelijke oriëntatie, compleet met een handige tuinhuis. <br><br>Extra's: <br><br>- Te renoveren in functie van eigen smaak<br>- Mogelijkheid tot extra slaapkamer <br>- Mooie tuin <br>- Vermelde oppervlaktes/afmetingen zijn indicatief<br>- Centrale ligging te Deurne! <br> Voor meer informatie, kijk snel op www.heylenvastgoed.be. Interesse in een GRATIS SCHATTING van uw eigendom? Bel 0800/29.223",
-      "nl": "Te renoveren woning met tuin en 2 slpks te Deurne! <br><br>Deze confortawoning is gelegen in de Meeuwenhoflei te Deurne. Een rustige straat met alle dagelijkse faciliteiten zoals winkels, scholen en openbaar vervoer op wandelafstand. <br><br>Indeling: <br><br>- Bovenverdieping: leefruimte, keuken, apart toilet, slaapkamer<br>- Benedenverdieping: slaapkamer, tussenruimte, badkamer, extra keuken, wasplaats en tuin <br><br>Omschrijving:<br><br>We betreden de woning via de inkomhal waar we via een houten trap zowel toegang hebben tot de bovenverdieping als de benedenverdieping. Bovenaan komen we in de leefruimte van ongeveer 26m², grenzend aan een open keuken met een achterliggend apart toilet. Op de beneden verdieping is er extra bergruimteonder de trap, een tweede slaapkamer aan de voorzijde, een veelzijdige tussenruimte en een badkamer. Daarnaast beschikt deze woning over een extra keuken en plek voor de wasmachine. Via een schuifraam in de keuken beneden bereikt u de aangelegde tuin met een westelijke oriëntatie, compleet met een handige tuinhuis. <br><br>Extra's: <br><br>- Te renoveren in functie van eigen smaak<br>- Mogelijkheid tot extra slaapkamer <br>- Mooie tuin <br>- Vermelde oppervlaktes/afmetingen zijn indicatief<br>- Centrale ligging te Deurne! <br> Voor meer informatie, kijk snel op www.heylenvastgoed.be. Interesse in een GRATIS SCHATTING van uw eigendom? Bel 0800/29.223"
+      "nl": "Achter deze karaktervolle gevel schuilt een pareltje van jewelste, trendy en toch cosy en voorzien van alle hedendaags comfort.\n\nU komt binnen in de lichtrijke inkomhal met toegang rechtstreeks naar de leefruimte. \nDe gezellige zeer ruime leefruimte wordt gedeeld met de volledig ingerichte moderne leefkeuken die uitkijkt op de tuin. De gezellige open keuken is voorzien van combi-oven, vaatwasmachine, koelkast met vriesvak, en voldoende kastruimte !\nDe onderhoudsvriendelijke tuin samen met het terras is zongericht ! \n\nDaarnaast is er een luxe badkamer voorzien van dubbele lavabo met ingebouwde designkranen, ruime inloopdouche en voldoende berging voor wasmachine en droogkast. Het toilet is apart. Daarnaast is ook een ruime kelder aanwezig. \n\nOp het eerste verdiep hebben we 2 slaapkamers. Het 2 de verdiep waar de prachtige master bedroom zich bevind, is een echt pareltje van jewelste voorzien van ingewerkte leds en met oog op detail afgewerkt! \n\nVooraan alsook achteraan de woning is er voldoende parking. Er is een ook privé parking voorzien voor de bewoners van de straat. \n\nKortom een absolute topper die u moet gezien hebben ! \nKwalitatieve materialen en volledig opgeschilderd van top tot teen ! \nBijkomende 'daytime ' foto's volgen zeer binnenkort :)\n\n\n\nWees er vlug bij !! U bent van harte welkom op onze bezoekdag op zaterdag 16 december vanaf 9h30. \nRICHTPRIJS 335.000 EURO\nSchrijf u alvast in rechtstreeks op onze website of bel ons op 0472 07 21 75 gerust voor meer info of ee"
     },
     "habitableUnitCount": null,
-    "fireplaceCount": -1,
-    "fireplaceExists": true,
-    "hasTerrace": null,
+    "fireplaceCount": null,
+    "fireplaceExists": false,
+    "hasTerrace": true,
     "terraceSurface": null,
     "terraceOrientation": null
   },
   "publication": {
-    "creationDate": "2023-12-04T14:48:27.000+0000",
+    "creationDate": "2023-12-10T12:57:56.510+0000",
     "expirationDate": "2024-04-14T23:00:00.000+0000",
     "publisherId": null,
-    "visualisationOption": "L",
-    "lastModificationDate": "2023-12-04T14:50:04.877+0000"
+    "visualisationOption": "XL",
+    "lastModificationDate": "2023-12-10T14:57:43.587+0000"
   },
   "transaction": {
     "type": "FOR_SALE",
     "subtype": "BUY_REGULAR",
-    "availabilityPeriodType": "UPON_EXCHANGE_OF_DEEDS",
+    "availabilityPeriodType": null,
     "availabilityDate": null,
     "certificates": {
-      "carbonEmission": 0,
+      "carbonEmission": null,
       "hasElectricalInstallationComplianceCertificate": null,
-      "primaryEnergyConsumptionPerSqm": 436,
+      "primaryEnergyConsumptionPerSqm": 196,
       "primaryEnergyConsumptionYearly": null,
       "epcDescription": null,
-      "epcReference": "202311290003052177RES2",
-      "epcScore": "E",
-      "epcUrl": "https://static.immoweb.be/pics/peb/fla/e.png"
+      "epcReference": "20231130-0002994394-RES-1",
+      "epcScore": "B",
+      "epcUrl": "https://static.immoweb.be/pics/peb/fla/b.png"
     },
     "rental": null,
     "sale": {
-      "price": 179000,
+      "price": 335000,
       "isSubjectToVat": false,
-      "cadastralIncome": 384,
+      "cadastralIncome": 595,
       "publicSale": null,
       "pricePerSqm": null,
       "oldPrice": null,
       "lifeAnnuity": null,
       "hasStartingPrice": false,
       "isFurnished": null,
-      "homeToBuild": null
+      "homeToBuild": null,
+      "newBuildsTotalPrice": "",
+      "newBuildsVAT": "",
+      "newBuildsLandPrice": "",
+      "newBuildsLandTaxes": ""
     },
     "investor": {
       "isInvestmentProperty": false,
@@ -396,23 +392,23 @@ Link number:2614
   "priceType": null,
   "price": {
     "type": "residential_sale",
-    "mainValue": 179000,
+    "mainValue": 335000,
     "alternativeValue": null,
     "additionalValue": null,
     "oldValue": null,
     "minRangeValue": null,
     "maxRangeValue": null,
-    "mainDisplayPrice": "€179,000",
-    "HTMLDisplayPrice": "<span aria-hidden=\"true\">€179,000</span>",
+    "mainDisplayPrice": "€335,000",
+    "HTMLDisplayPrice": "<span aria-hidden=\"true\">€335,000</span>",
     "alternativeDisplayPrice": "",
     "oldDisplayPrice": null,
-    "shortDisplayPrice": "€179K",
-    "accessibilityPrice": "179000€",
+    "shortDisplayPrice": "€335K",
+    "accessibilityPrice": "335000€",
     "label": "Price",
     "date": null,
     "language": "en"
   },
-  "externalReference": "116669 - DEU-23-SIP-",
+  "externalReference": "M/06602",
   "isBookmarked": false,
   "hasSectionsArray": {
     "hasGeneralSection": true,
