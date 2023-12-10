@@ -456,6 +456,8 @@ def scrapper_run(pages_limit=500, limks_limit=None):
             writer.writeheader()
             writer.writerows(y)
 
+# datetime.now().strftime("%Y%m%d-%H%M%S")
+
     log_message = datetime.now().strftime("%d/%m/%Y %H:%M:%S"), "= The scrapping is fifnished."    
     return log_message
 
