@@ -18,17 +18,24 @@ import sys
 from pathlib import Path
 sys.path.append(str(Path(__file__).resolve().parent.parent)) # Add the parent directory to sys.path
 # from include import FF2
-from include import scrap
+from include import scrap2
 
 # Instantiate a DAG with the specified parameters
 dag1 = DAG(
-    'a_scrapling',
+    'a_scrapling2',
     default_args={  'owner': 'airflow',
-                    'start_date': datetime(2023, 1, 1),
                     'retries': 1,
-                    'retry_delay': timedelta(minutes=1),    },
+                    'retry_delay': timedelta(minutes=2),    
+                    # 'start_date': datetime(2023, 1, 1),
+                    # 'start_date': datetime(2023, 12, 1, 22, 0, 0),  #date from
+                    'start_date': datetime(2023, 12, 1, 10, 15, 0),  #date from
+                    },
     # The interval 
-    schedule_interval=timedelta(minutes=1),  #------------------------------------------
+    # schedule_interval=timedelta(minutes=0.1),   # Run every 6 sec
+    # schedule_interval=timedelta(minutes=1),     # Run every minutes
+    # schedule_interval=timedelta(days=1),        # Run every day
+    schedule_interval=timedelta(hours=1),        # Run every day
+    # schedule_interval=timedelta(seconds=60),        # Run every .....
      # Set to False to ignore any historical runs
     catchup=False, 
     # dag_run_timeout=timedelta(minutes=60),
@@ -37,19 +44,19 @@ dag1 = DAG(
 
 
 
-# Define a Python function to be executed in each step of the loop
+# Python function to be executed -----------------------------------------------------
 def execute_task(x, **kwargs):
     # messages
     print(f"Executing task: {x}")
     print('CURRENT DIRECTORY DAG=1',os.getcwd())
   # task logic      
-    # print(FF2.dbcon())
-    a = scrap.scrapper_run()
+    print("a = scrap2.start_scrap(pages=10, max_workers=30, fpath='.')")
+    a = scrap2.start_scrap(pages=340, max_workers=30, fpath='.')
     print(a)
 
 
 # Create the initial dummy task to start the DAG
-t1 = DummyOperator(task_id='task_t1',  dag=dag1, )
+t1 = DummyOperator(task_id='task_t1',  dag = dag1, )
 
 t2 = PythonOperator(
         task_id = 'scrap_immoweb',
@@ -57,7 +64,7 @@ t2 = PythonOperator(
         op_args = [1],
         provide_context = True,
         # -time-out to stop task by airflow
-        execution_timeout = timedelta(seconds = (60*60*3)), #------------------------------
+        execution_timeout = timedelta( hours = 4), # Time limit for the execution
         # timeout=60, 
         dag = dag1,  
         )
