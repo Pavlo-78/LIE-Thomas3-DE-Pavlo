@@ -160,3 +160,4 @@ cython_debug/
 #.idea/
 
 /webdata
+__init__.py*

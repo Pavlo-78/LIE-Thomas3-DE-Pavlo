@@ -23,19 +23,19 @@ from include import scrap2
 # Instantiate a DAG with the specified parameters
 dag1 = DAG(
     'a_scrapling2',
-    default_args={  'owner': 'airflow',
-                    'retries': 1,
-                    'retry_delay': timedelta(minutes=2),    
+    default_args={  'owner':       'airflow',
+                    'retries':      5,
+                    'retry_delay':  timedelta(minutes=15),    
+                    'start_date':   datetime(2023, 12, 10, 2, 30, 0),  #date from
+                    },
                     # 'start_date': datetime(2023, 1, 1),
                     # 'start_date': datetime(2023, 12, 1, 22, 0, 0),  #date from
-                    'start_date': datetime(2023, 12, 1, 10, 15, 0),  #date from
-                    },
     # The interval 
+    schedule_interval=timedelta(days=340),        # Run every day
+    # schedule_interval=timedelta(hours=1),       # Run every hour
     # schedule_interval=timedelta(minutes=0.1),   # Run every 6 sec
-    # schedule_interval=timedelta(minutes=1),     # Run every minutes
-    # schedule_interval=timedelta(days=1),        # Run every day
-    schedule_interval=timedelta(hours=1),        # Run every day
-    # schedule_interval=timedelta(seconds=60),        # Run every .....
+    # schedule_interval=timedelta(minutes=2),     # Run every minutes
+    # schedule_interval=timedelta(seconds=60),    # Run every .....
      # Set to False to ignore any historical runs
     catchup=False, 
     # dag_run_timeout=timedelta(minutes=60),
@@ -44,14 +44,15 @@ dag1 = DAG(
 
 
 
-# Python function to be executed -----------------------------------------------------
+# Python function to be executed
 def execute_task(x, **kwargs):
     # messages
     print(f"Executing task: {x}")
     print('CURRENT DIRECTORY DAG=1',os.getcwd())
-  # task logic      
-    print("a = scrap2.start_scrap(pages=10, max_workers=20, fpath='.')")
-    a = scrap2.start_scrap(pages=340, max_workers=20, fpath='.')
+  # task logic -------------------------------------------------------------------  
+    max_workers = 50 
+    print(f"a = scrap2.start_scrap(pages=10, max_workers={max_workers}, fpath='.')")
+    a = scrap2.start_scrap(pages=1, max_workers=max_workers, fpath='.')
     print(a)
 
 
@@ -64,7 +65,7 @@ t2 = PythonOperator(
         op_args = [1],
         provide_context = True,
         # -time-out to stop task by airflow
-        execution_timeout = timedelta( hours = 4), # Time limit for the execution
+        execution_timeout = timedelta( hours = 5 ), # Time limit for the execution
         # timeout=60, 
         dag = dag1,  
         )
