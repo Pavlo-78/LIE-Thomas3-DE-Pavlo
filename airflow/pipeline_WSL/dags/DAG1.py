@@ -50,8 +50,8 @@ def execute_task(x, **kwargs):
     print(f"Executing task: {x}")
     print('CURRENT DIRECTORY DAG=1',os.getcwd())
   # task logic      
-    print("a = scrap2.start_scrap(pages=10, max_workers=30, fpath='.')")
-    a = scrap2.start_scrap(pages=340, max_workers=30, fpath='.')
+    print("a = scrap2.start_scrap(pages=10, max_workers=20, fpath='.')")
+    a = scrap2.start_scrap(pages=340, max_workers=20, fpath='.')
     print(a)
 
 
