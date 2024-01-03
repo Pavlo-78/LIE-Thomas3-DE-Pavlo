@@ -45,6 +45,7 @@ dag1 = DAG(
 
 
 # Python function to be executed
+# Python function to be executed
 def execute_task(x, **kwargs):
     # messages
     print(f"Executing task: {x}")
@@ -65,6 +66,7 @@ t2 = PythonOperator(
         op_args = [1],
         provide_context = True,
         # -time-out to stop task by airflow
+        execution_timeout = timedelta( hours = 5 ), # Time limit for the execution
         execution_timeout = timedelta( hours = 5 ), # Time limit for the execution
         # timeout=60, 
         dag = dag1,  

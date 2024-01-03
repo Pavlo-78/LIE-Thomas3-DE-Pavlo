@@ -42,6 +42,7 @@ class Scraper_immoweb():
 		list_urls=[]
 		url, np, prop_type = link['link_sp'], link['np'], link['prop_type']
 		resp = requests.get(url, timeout=90)
+		resp = requests.get(url, timeout=90)
 		if resp.status_code==200:
 			soup = BeautifulSoup(resp.text, 'html.parser')       # Parsing the search page ontent
 			tags = soup.find_all("a", class_="card__title-link") # Finding all links on web page
@@ -69,7 +70,7 @@ class Scraper_immoweb():
 	def get_response_i(self, link):
 		ddict = {}				  
 		# time.sleep(random.uniform(0.1, 10)) # random delay before the request  
-		resp = requests.get(link['link'], timeout=300)
+		resp = requests.get(link['link'])#, timeout=300)
 		text = resp.text	
 		# Define the pattern to match the script content
 		pattern = re.compile(r'<script type="text/javascript">(.*?)</script>', re.DOTALL)	
