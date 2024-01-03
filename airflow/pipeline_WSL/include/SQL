@@ -1,0 +1,21 @@
+select * from rss_data_str;
+select * from rss_data_row;
+
+select "RSS Title", RSS_Source, RSS_Topic, 
+count(*), min(date) from rss_data_row 
+group by "RSS Title", RSS_Source, RSS_Topic
+order by count(*) desc
+;
+
+select RSS_Source,RSS_Topic,insert_time,count(*)
+from rss_data_row
+group by RSS_Source,RSS_Topic,insert_time
+;
+
+
+select 'row' as f, count(*) from rss_data_row union all 
+select 'str' as f, count(*) from rss_data_str
+
+
+--delete from rss_data_str
+

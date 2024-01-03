@@ -26,7 +26,7 @@ dag1 = DAG(
     default_args={  'owner':       'airflow',
                     'retries':      5,
                     'retry_delay':  timedelta(minutes=15),    
-                    'start_date':   datetime(2023, 12, 10, 2, 30, 0),  #date from
+                    'start_date':   datetime(2023, 12, 12, 2, 31, 0),  #date from
                     },
                     # 'start_date': datetime(2023, 1, 1),
                     # 'start_date': datetime(2023, 12, 1, 22, 0, 0),  #date from
@@ -50,9 +50,9 @@ def execute_task(x, **kwargs):
     print(f"Executing task: {x}")
     print('CURRENT DIRECTORY DAG=1',os.getcwd())
   # task logic -------------------------------------------------------------------  
-    max_workers = 50 
+    max_workers = 5 
     print(f"a = scrap2.start_scrap(pages=10, max_workers={max_workers}, fpath='.')")
-    a = scrap2.start_scrap(pages=1, max_workers=max_workers, fpath='.')
+    a = scrap2.start_scrap(pages=350, max_workers=max_workers, fpath='.')
     print(a)
 
 

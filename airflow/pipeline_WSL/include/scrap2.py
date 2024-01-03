@@ -69,7 +69,7 @@ class Scraper_immoweb():
 	def get_response_i(self, link):
 		ddict = {}				  
 		# time.sleep(random.uniform(0.1, 10)) # random delay before the request  
-		resp = requests.get(link['link'], timeout=90)
+		resp = requests.get(link['link'], timeout=300)
 		text = resp.text	
 		# Define the pattern to match the script content
 		pattern = re.compile(r'<script type="text/javascript">(.*?)</script>', re.DOTALL)	
@@ -336,9 +336,9 @@ class Scraper_immoweb():
 
 def start_scrap(pages,max_workers,fpath):
 	fpath = os.path.dirname(os.path.abspath(__file__))	
-	print("current path = ",fpath)
 	stime, fpath = t.time(), fpath
 	scr = Scraper_immoweb()
+	scr.logmessage(text=f'Current pass: {fpath}')	
 	scr.cls_links_sp()
 	scr.get1_links_sp(pages=pages, property_type='house')
 	scr.get1_links_sp(pages=pages, property_type='apartment')
