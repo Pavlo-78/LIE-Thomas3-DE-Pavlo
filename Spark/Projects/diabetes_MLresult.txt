@@ -1,0 +1,11 @@
+LogisticRegressionModel Accuracy: 0.7804878048780488
+LogisticRegressionModel Precision: 0.7352941176470589
+LogisticRegressionModel Recall: 0.5813953488372093
+ ------------------
+RandomForestClassificationModel Accuracy: 0.7967479674796748
+RandomForestClassificationModel Precision: 0.78125
+RandomForestClassificationModel Recall: 0.5813953488372093
+ ------------------
+DecisionTreeClassificationModel Accuracy: 0.7723577235772358
+DecisionTreeClassificationModel Precision: 0.7142857142857143
+DecisionTreeClassificationModel Recall: 0.5813953488372093
